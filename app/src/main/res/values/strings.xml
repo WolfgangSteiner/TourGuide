@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Berlin Tour Guide</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_monuments">Monuments</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_sights">Sights</string>
+
+</resources>
