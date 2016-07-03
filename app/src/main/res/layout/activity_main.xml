@@ -9,25 +9,25 @@
     tools:context="com.example.android.tourguide.MainActivity">
 
     <TextView
-        android:id="@+id/parks"
+        android:id="@+id/parks_button"
         style="@style/CategoryStyle"
         android:background="@color/category_parks"
         android:text="@string/category_parks" />
 
     <TextView
-        android:id="@+id/restaurants"
+        android:id="@+id/monuments_button"
         style="@style/CategoryStyle"
         android:background="@color/category_monuments"
         android:text="@string/category_monuments" />
 
     <TextView
-        android:id="@+id/colors"
+        android:id="@+id/museums_button"
         style="@style/CategoryStyle"
         android:background="@color/category_museums"
         android:text="@string/category_museums" />
 
     <TextView
-        android:id="@+id/phrases"
+        android:id="@+id/sights_button"
         style="@style/CategoryStyle"
         android:background="@color/category_sights"
         android:text="@string/category_sights" />

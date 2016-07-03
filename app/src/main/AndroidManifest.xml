@@ -15,10 +15,47 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ParksActivity" />
-        <activity android:name=".MonumentsActivity" />
-        <activity android:name=".MuseumsActivity" />
-        <activity android:name=".SighsActivity"></activity>
+        <activity
+            android:name=".ParksActivity" 
+            android:label="Parks"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        
+        <activity
+            android:name=".MonumentsActivity" 
+            android:label="Monuments"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        
+        <activity
+            android:name=".MuseumsActivity" 
+            android:label="Museums"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        
+
+        <activity
+            android:name=".SightsActivity" 
+            android:label="Sights"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>
