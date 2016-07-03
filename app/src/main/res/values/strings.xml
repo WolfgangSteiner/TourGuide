@@ -4,5 +4,9 @@
     <string name="category_monuments">Monuments</string>
     <string name="category_museums">Museums</string>
     <string name="category_sights">Sights</string>
+    <string name="name_mauerpark">Mauerpark</string>
+    <string name="description_mauerpark">A popular park following the route of the former Berlin Wall.</string>
+    <string name="name_tiergarten">Tiergarten</string>
+    <string name="description_tiergarten">With an area of more than 2 square kilometers Tiergarten is among the three biggest parks in Germany.</string>
 
 </resources>
