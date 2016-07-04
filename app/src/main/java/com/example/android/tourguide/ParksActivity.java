@@ -17,8 +17,8 @@ public class ParksActivity extends AppCompatActivity {
         setContentView(R.layout.location_list);
 
         ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(this, R.string.name_mauerpark, R.string.description_mauerpark, R.drawable.mauerpark));
-        locations.add(new Location(this, R.string.name_tiergarten, R.string.description_tiergarten, R.drawable.tiergarten));
+        locations.add(new Location(R.string.name_mauerpark, R.string.description_mauerpark, R.drawable.mauerpark));
+        locations.add(new Location(R.string.name_tiergarten, R.string.description_tiergarten, R.drawable.tiergarten));
 
         LocationAdapter locationAdapter = new LocationAdapter(this, locations);
         ListView listView = (ListView) findViewById(R.id.list);

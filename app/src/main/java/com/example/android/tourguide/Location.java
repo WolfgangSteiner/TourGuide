@@ -9,31 +9,32 @@ import org.json.JSONObject;
  */
 public class Location
 {
-    private String mName;
-    private String mDescription;
+    private int mNameId;
+    private int mDescriptionId;
     private int mImageId;
 
-    public Location(Context aContext, int aNameId, int aDescriptionId, int aImageId)
+    public Location(int aNameId, int aDescriptionId, int aImageId)
     {
-        mName = aContext.getString(aNameId);
-        mDescription = aContext.getString(aDescriptionId);
+        mNameId = aNameId;
+        mDescriptionId = aDescriptionId;
         mImageId = aImageId;
     }
 
-    public Location(String aName, String aDescription)
+    public Location(int aName, int aDescription)
     {
-        mName = aName;
-        mDescription = aDescription;
+        mNameId = aName;
+        mDescriptionId = aDescription;
+        mImageId = 0;
     }
 
-    public String getName()
+    public int getNameId()
     {
-        return mName;
+        return mNameId;
     }
 
-    public String getDescription()
+    public int getDescriptionId()
     {
-        return mDescription;
+        return mDescriptionId;
     }
 
     public int getImageId()

@@ -34,10 +34,10 @@ public class LocationAdapter extends ArrayAdapter<Location>
         Location currentLocation = getItem(position);
 
         TextView nameView = (TextView) locationView.findViewById(R.id.name_field);
-        nameView.setText(currentLocation.getName());
+        nameView.setText(getContext().getString(currentLocation.getNameId()));
 
         TextView descriptionView = (TextView) locationView.findViewById(R.id.description_field);
-        descriptionView.setText(currentLocation.getDescription());
+        descriptionView.setText(getContext().getString(currentLocation.getDescriptionId()));
 
         ImageView imageView = (ImageView) locationView.findViewById(R.id.image_view);
         imageView.setImageResource(currentLocation.getImageId());
