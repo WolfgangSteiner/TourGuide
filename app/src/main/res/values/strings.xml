@@ -5,8 +5,19 @@
     <string name="category_museums">Museums</string>
     <string name="category_sights">Sights</string>
     <string name="name_mauerpark">Mauerpark</string>
-    <string name="description_mauerpark">A popular park following the route of the former Berlin Wall.</string>
+    <string name="description_mauerpark">A popular park following the route of the former Berlin Wall. On weekends it hosts a flea market and many street musicians.</string>
     <string name="name_tiergarten">Tiergarten</string>
     <string name="description_tiergarten">With an area of more than 2 square kilometers Tiergarten is among the three biggest parks in Germany.</string>
-
+    <string name="name_brandenburgertor">Brandenburger Tor</string>
+    <string name="description_brandenburgertor">One of the best-known landmarks in Germany was once located right behind the Berlin Wall. Today it is one of the most popular tourist attractions in Berlin.</string>
+    <string name="name_fernsehturm">Fernsehturm</string>
+    <string name="description_fernsehturm">Close to Alexanderplatz in Berlin-Mitte, the tower was constructed between 1965 and 1969 by the administration of the German Democratic Republic (GDR). It was intended as a symbol of Berlin, which it remains today, as it is easily visible throughout the central and some suburban districts of Berlin.</string>
+    <string name="name_siegessaeule">Siegessäule</string>
+    <string name="description_siegessaeule">The Victory Column is a major tourist attraction in the city of Berlin. Its viewing platform, for which a ticket is required, offers a view over Berlin.</string>
+    <string name="name_mauer">Berlin Wall Memorial</string>
+    <string name="description_mauer">The Berlin Wall Memorial (Gedenkstätte Berliner Mauer) commemorates the division of Berlin by the Berlin Wall and the deaths that occurred there. The monument was created in 1998 by the Federal Republic of Germany and the Federal State of Berlin.</string>
+    <string name="name_pergamon">Pergamon Museum</string>
+    <string name="description_pergamon">The Pergamon Museum is situated on the Museum Island in Berlin. It houses original-sized, reconstructed monumental buildings such as the Pergamon Altar and the Market Gate of Miletus, all consisting of parts transported from Turkey.</string>
+    <string name="name_neuesmuseum">Neues Museum</string>
+    <string name="description_neuesmuseum">Exhibits include the Egyptian and Prehistory and Early History collections, as it did before the war. The artifacts it houses include the iconic bust of the Egyptian queen Nefertiti.</string>
 </resources>

@@ -3,11 +3,6 @@ package com.example.android.tourguide;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.InputStream;
 import java.util.ArrayList;
 
 public class ParksActivity extends AppCompatActivity {
